@@ -1,0 +1,1381 @@
+body {
+    background-color: #CEA352;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+header img {
+    width: 180px;
+    position: fixed;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    margin-top: -56px;
+    margin-left: -90px;
+}
+
+div.la_formule {
+    position: relative;
+    top: 105%;
+    width: 100%;
+    height: 900px;
+}
+
+div.la_formule h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    position: absolute;
+    left: -10px;
+    top: 45%;
+    transform: rotate(-90deg);
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+div.la_formule_one {
+    padding: 150px 0px;
+    float: left;
+    height: 600px;
+    background-color: #E3E1D2;
+    width: 50%;
+}
+
+div.la_formule_one img {
+    display: none;
+}
+
+div.la_formule_two {
+    background-color: #EFECE2;
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
+div.la_formule_two_nested_block {
+    width: 100%;
+    height: 100%;
+    background-image: url(picture/toast-gif.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.la_formule_one_nested_block {
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: auto;
+}
+
+.la_formule h1,
+span {
+    text-transform: uppercase;
+    color: #395442;
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 54px;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-top: 0px;
+}
+
+.la_formule span {
+    font-size: 26px;
+}
+
+.la_formule_one_nested_block_2 {
+    padding-left: 40px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.la_formule h3 {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 800;
+    color: #ac9377;
+    margin: 0 0 20px 0;
+}
+
+.la_formule p {
+    font-weight: 400;
+    color: #ac9377;
+}
+
+.flowers_topleft {
+    background-image: url(picture/flowers-topleft.png);
+    height: 55%;
+    width: 50%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    animation-name: flowers_topleft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.flowers_topright {
+    background-image: url(picture/flowers-topright.png);
+    height: 65%;
+    width: 50%;
+    position: fixed;
+    top: -5%;
+    right: -20px;
+    background-repeat: no-repeat;
+    animation-name: flowers_topright;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    background-position-x: left;
+    background-position-y: bottom;
+}
+
+.flowers-bottomleft {
+    background-image: url(picture/flowers-bottomleft.png);
+    height: 50%;
+    width: 50%;
+    position: fixed;
+    top: 500px;
+    left: 0px;
+    animation-name: flowers_bottomleft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+.flowers-bottomright {
+    background-image: url(picture/flowers-bottomright.png);
+    height: 50%;
+    width: 50%;
+    position: fixed;
+    top: 500px;
+    right: -20px;
+    animation-name: flowers_bottomright;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+}
+
+@keyframes flowers_topleft {
+    from {
+        top: -100%;
+        left: -100%;
+    }
+
+    to {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+@keyframes flowers_topright {
+    from {
+        top: -100%;
+        right: -100%;
+    }
+
+    to {
+        top: -5%;
+        right: -20px;
+    }
+}
+
+@keyframes flowers_bottomleft {
+    from {
+        bottom: -100%;
+        left: -100%;
+    }
+
+    to {
+        top: 500px;
+        left: 0px;
+    }
+}
+
+@keyframes flowers_bottomright {
+    from {
+        bottom: -100%;
+        right: -100%;
+    }
+
+    to {
+        top: 500px;
+        right: -20px;
+    }
+}
+
+div.fone1,
+div.fone2,
+div.fone3 {
+    position: relative;
+    top: 105%;
+    width: 100%;
+    height: 700px;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: 2326px 1163px;
+    background-position: 50% -114.599px;
+}
+
+div.fone1 {
+    background-image: url(picture/img-mobile-11.jpg);
+}
+
+div.fone2 {
+    background-image: url(picture/food_03.jpg);
+}
+
+div.fone3 {
+    background-image: url(picture/ambiance-11.jpg);
+}
+
+div.menu {
+    position: relative;
+    top: 105%;
+    background-color: #F2E3B4;
+    width: 100%;
+    padding: 70px 0 130px 0;
+}
+
+div.menu div.foto1 {
+    position: absolute;
+    z-index: 1;
+    top: -158px;
+    right: 0px;
+    width: 60%;
+    display: inline-block;
+}
+
+div.foto1 img,
+div.foto2 img {
+    width: 100%;
+    height: auto;
+}
+
+div.foto1::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    background-color: #ac9377;
+}
+
+div.menu div.foto2 {
+    position: absolute;
+    z-index: 1;
+    top: -50px;
+    right: 50%;
+    width: 450px;
+    margin-right: -150px;
+}
+
+div.foto2::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    background-color: #395442;
+}
+
+div.menu_main_container {
+    position: absolute;
+    top: 475px;
+    left: 0px;
+    width: 100%;
+    height: 56px;
+}
+
+div.menu_nested_container {
+    max-width: 1170px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div.menu_punkty {
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+
+div.menu_punkty::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 5000px;
+    background-color: white;
+    z-index: 1;
+}
+
+div.menu_punkty ul {
+    position: relative;
+    z-index: 2;
+    margin: 0px;
+    padding-left: 0;
+    list-style: none;
+    display: block;
+}
+
+div.menu_punkty ul li {
+    float: left;
+    margin-right: 40px;
+    list-style: none;
+}
+
+div.menu_punkty ul li a {
+    font-family: 'Alegreya Sans', Helvetica, Arial, sans-serif;
+    background-color: white;
+    overflow: hidden;
+    text-transform: uppercase;
+    color: #395442;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 8px 2px 0px;
+    height: 34px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+div.menu_punkty ul li a::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    z-index: 10;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -6px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #395442;
+    transition-duration: .5s;
+}
+
+div.menu_punkty ul li a:hover::after {
+    transform: scale(1);
+    bottom: 0px;
+}
+
+div.menu_contents {
+    overflow: hidden;
+    max-width: 1170px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div.menu_header {
+    overflow: hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menu_header h2 {
+    width: 100%;
+    float: left;
+    font-size: 180px;
+    line-height: 180px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 80px 0;
+    letter-spacing: 14px;
+    z-index: 12;
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+div.menu_header p {
+    width: 30%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+    margin-bottom: 225px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+div.menu div.contents {
+    margin-left: -15px;
+    margin-right: -15px;
+    overflow: hidden;
+}
+
+div.contents div.column_one,
+div.contents div.column_two {
+    width: 45%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div.contents div.column_one h3,
+div.contents div.column_two h3 {
+    margin: 0px 0px 30px 0px;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #395442;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+div.contents div.column_one ul,
+div.contents div.column_two ul {
+    margin: 0 0 100px 0;
+    padding-left: 40px;
+    list-style: none;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+div.contents div.column_one ul li,
+div.contents div.column_two ul li {
+    margin-bottom: 30px;
+}
+
+div.contents div.column_one ul li p,
+div.contents div.column_two ul li p {
+    color: #395442;
+    font-size: 17px;
+    margin: 0;
+}
+
+div.contents div.column_one ul li p b,
+div.contents div.column_two ul li p b {
+    display: block;
+}
+
+div.contents div.column_one p,
+div.contents div.column_two p {
+    color: #395442;
+    margin: 0 0 10.5px;
+    font-size: 15px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+div.foto4 {
+    width: 30%;
+    position: absolute;
+    top: -90px;
+    right: 5%;
+    display: inline-block;
+    z-index: 1;
+}
+
+div.foto4 img {
+    width: 100%;
+    height: auto;
+}
+
+div.foto4::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    z-index: -1;
+    background-color: #395442;
+}
+
+div.foto3 {
+    position: absolute;
+    bottom: -162px;
+    right: 0;
+    width: 48%;
+    display: inline-block;
+    z-index: 1;
+}
+
+div.foto3 img {
+    width: 100%;
+    height: auto;
+}
+
+div.foto3::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    z-index: -1;
+    background-color: #f2e3b4;
+}
+
+div.lidee {
+    background-color: white;
+    padding: 70px 0px 130px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 105%;
+}
+
+div.lidee_container {
+    max-width: 1170px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+
+div.lidee_container h2 {
+    font-size: 180px;
+    font-weight: 800;
+    color: #ac9377;
+    text-transform: uppercase;
+    line-height: 180px;
+    letter-spacing: 14px;
+    margin: 0 0 80px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    z-index: 12;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+div.lidee_nested_container {
+    width: 50%;
+    float: left;
+    padding-left: 55px;
+    padding-right: 15px;
+    position: relative;
+    margin: 0px;
+    margin-bottom: 80px;
+}
+
+div.lidee_nested_container p {
+    margin: 0 0 10.5px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.42857143;
+    font-size: 15px;
+}
+
+div.lidee_nested_container a,
+div.le_dep_frida_nested_conrainer_two a {
+    font-size: 18px;
+    color: #395442;
+    border: 2px solid #395442;
+    padding: 6px 12px;
+    position: relative;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 1.42857143;
+    text-decoration: none;
+    font-family: 'Alegreya Sans', sans-serif;
+    overflow: hidden;
+}
+
+div.lidee_nested_container div,
+div.le_dep_frida_nested_conrainer_two div {
+    font-weight: 700;
+    background-color: #395442;
+    font-size: 18px;
+    color: #f2e3b4;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    bottom: 0;
+    padding: 6px 12px;
+    z-index: -1;
+    transform-origin: left bottom;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+div.lidee_nested_container a:hover div,
+div.le_dep_frida_nested_conrainer_two a:hover div {
+    left: 0px;
+    z-index: 2;
+}
+
+div.lidee_nested_container_two {
+    padding-left: 40px;
+}
+
+div.lidee_nested_container_two h3 {
+    width: 100%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+    line-height: 1.1;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+div.lidee_nested_container_two h3 br {
+    display: none;
+}
+
+div.owner {
+    width: 25%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div.owner h3 {
+    margin: 0 0 12px 0;
+    text-transform: uppercase;
+    color: #ac9377;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 0px;
+}
+
+div.owner p {
+    line-height: 15px;
+    font-weight: 300;
+    margin: 0px 0px 10.5px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+div.owner a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #395442;
+    line-height: 1.42857143;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+div.foto5 {
+    position: absolute;
+    top: -90px;
+    left: 2%;
+    display: inline-block;
+    width: 30%;
+    width: 370px;
+    z-index: 1;
+}
+
+div.foto5 img {
+    width: 100%;
+    height: auto;
+}
+
+div.foto5::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #395442;
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: -10px;
+}
+
+div.foto6 {
+    position: absolute;
+    bottom: -162px;
+    left: 0px;
+    display: inline-block;
+    width: 48%;
+    z-index: 1;
+}
+
+div.foto6 img {
+    width: 100%;
+    height: auto;
+}
+
+div.foto6::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #f2e3b4;
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: -10px;
+}
+
+div.le_dep_frida {
+    position: relative;
+    top: 105%;
+    background-color: #e3e1d2;
+    width: 100%;
+    padding: 70px 0 130px 0;
+}
+
+div.le_dep_frida_conrainer {
+    max-width: 1170px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+
+div.le_dep_frida_conrainer h2 {
+    width: 45%;
+    float: right;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 180px;
+    line-height: 180px;
+    font-weight: 800;
+    color: #395442;
+    text-transform: uppercase;
+    margin: 0px 0px 80px 0px;
+    letter-spacing: 14px;
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+div.le_dep_frida_nested_conrainer {
+    width: 50%;
+    float: right;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div.le_dep_frida_nested_conrainer p {
+    font-weight: 300;
+    color: #395442;
+    margin: 0 0 10.5px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+div.le_dep_frida_nested_conrainer_two {
+    margin-bottom: 80px;
+    padding-left: 40px;
+}
+
+footer {
+    position: relative;
+    top: 105%;
+    height: 460px;
+    background: #395442;
+    color: #f2e3b4;
+    padding: 130px 0;
+    text-transform: uppercase;
+}
+
+footer div.container {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+
+div.container div.cafe_frida_avatar {
+    margin-left: -15px;
+    margin-right: -15px;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div.container div.cafe_frida_avatar img {
+    width: 130px;
+    height: auto;
+    margin-bottom: 36px;
+}
+
+div.container div.cafe_frida_avatar div.column {
+    width: 25%;
+    float: left;
+    position: relative;
+}
+
+div.container div.cafe_frida_avatar div.column p {
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+div.container div.cafe_frida_avatar div.column p a {
+    font-size: 15px;
+    color: #f2e3b4;
+    text-decoration: none;
+}
+
+div.container div.cafe_frida_avatar div.column p a b {
+    font-size: 24px;
+}
+
+a.facebook {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+div.container div.cafe_frida_avatar div.column a.facebook img {
+    width: 30px;
+    background-color: #f2e3b4;
+    border-radius: 4px;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+div.container div.cafe_frida_avatar div.column a.facebook:hover img {
+    background-color: white;
+}
+
+div.container div.cafe_frida_avatar div.column h4 {
+    margin: 0px 0px 10px 0px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+div.map {
+    position: absolute;
+    top: -78px;
+    right: 10%;
+    width: 30%;
+    height: 520px;
+    display: inline-block;
+    z-index: 1;
+}
+
+div.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+div.map::after {
+    content: "";
+    background-color: #ac9377;
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+}
+
+div.copyright {
+    float: left;
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div.copyright p {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    float: left;
+}
+
+div.copyright p a {
+    text-decoration: none;
+    color: #f2e3b4;
+}
+
+ul.gallery {
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+    position: relative;
+    top: 105%;
+    display: none;
+}
+
+ul.gallery li {
+    float: left;
+    width: 33.33333333%;
+    margin: 0px;
+}
+
+ul.gallery li img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 1500px) {
+
+    div.fone1,
+    div.fone2,
+    div.fone3 {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    div.fone1,
+    div.fone2,
+    div.fone3 {
+        height: 380px;
+    }
+
+    div.menu div.foto1 {
+        width: 50%;
+        top: -137px;
+    }
+
+    div.menu div.foto2 {
+        width: 350px;
+        top: 20px;
+    }
+
+    div.menu_contents {
+        max-width: 970px;
+        width: auto;
+    }
+
+    div.menu_nested_container {
+        max-width: 970px;
+        width: auto;
+    }
+
+    div.lidee_container {
+        max-width: 970px;
+        width: auto;
+    }
+
+    div.foto3 {
+        width: 38%;
+        bottom: -102px;
+    }
+
+    div.foto4 {
+        width: 27%;
+        top: -100px;
+    }
+
+    div.foto5 {
+        width: 27%;
+    }
+
+    div.le_dep_frida_conrainer {
+        max-width: 970px;
+        width: auto;
+    }
+
+    footer div.container {
+        max-width: 970px;
+        width: auto;
+    }
+
+    div.copyright {
+        max-width: 970px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div.la_formule {
+        height: 1000px;
+    }
+
+    div.la_formule_one {
+        height: 800px;
+        padding: 100px 0px;
+    }
+
+    .la_formule_one_nested_block {
+        width: 290px;
+    }
+
+    div.la_formule {
+        height: 1100px;
+    }
+
+    div.la_formule_one {
+        float: none;
+        width: 100%;
+        height: 900px;
+    }
+
+    div.la_formule h2 {
+        position: relative;
+        left: inherit;
+        top: inherit;
+        max-width: 500px;
+        width: 66.66666667%;
+        margin: 0 auto 40px auto;
+        padding: 0 15px;
+        transform: rotate(0);
+    }
+
+    .la_formule_one_nested_block {
+        max-width: 500px;
+        width: 66.66666667%;
+    }
+
+    .la_formule_one_nested_block_2 {
+        padding: 0px;
+    }
+
+    div.la_formule_two {
+        display: none;
+    }
+
+    div.la_formule_one img {
+        display: block;
+        width: 100%;
+    }
+
+    div.fone1,
+    div.fone2,
+    div.fone3 {
+        display: none;
+    }
+
+    div.menu div.foto1 {
+        display: none;
+    }
+
+    div.menu div.foto2 {
+        display: none;
+    }
+
+    .menu_header h2 {
+        font-size: 120px;
+        line-height: 120px;
+        margin-bottom: 40px;
+    }
+
+    div.menu_contents {
+        max-width: 750px;
+        width: auto;
+    }
+
+    div.menu_main_container {
+        display: none;
+    }
+
+    div.menu_header p {
+        margin-bottom: 60px;
+        width: 60%;
+    }
+
+    div.contents div.column_one h3,
+    div.contents div.column_two h3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    div.contents div.column_one ul li p,
+    div.contents div.column_two ul li p {
+        font-size: 15px;
+    }
+
+    ul.gallery {
+        display: block;
+    }
+
+    div.lidee_container {
+        max-width: 750px;
+        width: auto;
+    }
+
+    div.lidee_nested_container_two {
+        padding: 0px;
+    }
+
+    div.lidee_container h2 {
+        font-size: 120px;
+        line-height: 120px;
+        margin-bottom: 40px;
+    }
+
+    div.lidee_nested_container {
+        padding-left: 15px;
+    }
+
+    div.le_dep_frida_conrainer {
+        max-width: 750px;
+        width: auto;
+    }
+
+    div.le_dep_frida_conrainer h2 {
+        font-size: 120px;
+        line-height: 120px;
+        margin-bottom: 40px;
+    }
+
+    footer div.container {
+        max-width: 750px;
+        width: auto;
+        padding-left: 15px;
+    }
+
+    div.map {
+        top: 212px;
+        height: 300px;
+    }
+
+    div.copyright {
+        width: 750px;
+    }
+
+    .flowers_topleft {
+        transform: translate(-10%, -10%);
+    }
+
+    .flowers_topright {
+        transform: translate(10%, -10%);
+    }
+
+    .flowers-bottomleft {
+        transform: translate(-10%, 10%);
+    }
+
+    .flowers-bottomright {
+        transform: translate(10%, 10%);
+    }
+
+    header img {
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    div.la_formule_one {
+        padding: 70px 0px;
+    }
+
+    div.la_formule {
+        height: 1040px;
+    }
+
+    div.menu_contents {
+        width: 90%;
+    }
+
+    .menu_header h2 {
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 30px;
+        letter-spacing: 6px;
+    }
+
+    div.menu_header p {
+        padding: 0px;
+    }
+
+    div.contents div.column_one h3,
+    div.contents div.column_two h3 {
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    div.contents div.column_one h3 span,
+    div.contents div.column_two h3 span {
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 7px;
+        right: 0;
+        transition: 3s;
+        transition-timing-function: ease-in-out;
+    }
+
+    div.contents div.column_one h3 span::before,
+    div.contents div.column_two h3 span::before {
+        display: block;
+        content: "";
+        position: absolute;
+        background: #395442;
+        width: 20px;
+        height: 3px;
+        top: 50%;
+        margin-top: -1.5px;
+        left: 0;
+    }
+
+    div.contents div.column_one h3 span::after,
+    div.contents div.column_two h3 span::after {
+        display: block;
+        content: "";
+        position: absolute;
+        background: #395442;
+        width: 3px;
+        height: 20px;
+        top: 0;
+        left: 50%;
+        margin-left: -1.5px;
+    }
+
+    div.contents div.column_one ul,
+    div.contents div.column_two ul,
+    div.contents div.column_one p,
+    div.contents div.column_one br {
+        display: none;
+    }
+
+    div.contents div.column_one,
+    div.contents div.column_two {
+        float: none;
+        width: 90%;
+    }
+
+    div.menu,
+    div.lidee {
+        padding: 70px 0px;
+    }
+
+    div.lidee_container {
+        width: auto;
+        padding: 0px;
+    }
+
+    div.lidee_container h2 {
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 30px;
+        letter-spacing: 6px;
+        max-width: 100%;
+    }
+
+    div.lidee_nested_container {
+        float: none;
+        width: auto;
+    }
+
+    div.lidee_nested_container_two h3 br {
+        display: block;
+    }
+
+    div.owner {
+        width: 33.33333333%;
+    }
+
+    div.le_dep_frida {
+        padding: 70px 0px;
+    }
+
+    div.le_dep_frida_conrainer {
+        width: auto;
+    }
+
+    div.le_dep_frida_conrainer h2 {
+        width: auto;
+        float: none;
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 30px;
+        letter-spacing: 6px;
+        padding: 0px;
+    }
+
+    div.le_dep_frida_nested_conrainer {
+        width: auto;
+        float: none;
+        padding: 0px;
+    }
+
+    div.le_dep_frida_nested_conrainer_two {
+        padding: 0px;
+    }
+
+    footer {
+        padding: 70px 0px;
+        height: auto;
+    }
+
+    footer div.container {
+        width: auto;
+    }
+
+    div.container div.cafe_frida_avatar div.column {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    div.map {
+        position: relative;
+        top: inherit;
+        right: inherit;
+        width: 100%;
+        height: 250px;
+    }
+
+    div.map::after {
+        display: none;
+    }
+
+    div.copyright {
+        width: auto;
+    }
+
+    div.container div.cafe_frida_avatar div.column p a img {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .la_formule_one_nested_block,
+    div.la_formule h2 {
+        width: 90%;
+    }
+
+    div.la_formule_one,
+    div.la_formule {
+        height: auto;
+    }
+
+    div.menu_header p {
+        width: 100%;
+    }
+
+    ul.gallery li {
+        width: 50%;
+    }
+
+    div.owner {
+        width: auto;
+        float: none;
+        margin-bottom: 30px;
+    }
+
+    div.container div.cafe_frida_avatar div.column {
+        width: 100%;
+        float: none;
+    }
+}
